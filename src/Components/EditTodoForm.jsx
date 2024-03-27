@@ -1,11 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 
-function EditTodoForm({ text, id, updateTodo, setOnEdit, onEdit,editTodo,  }) {
+function EditTodoForm({ text, id, setOnEdit, onEdit,editTodo,  }) {
   useEffect(() => {
     myref.current.focus();
   }, []);
   const myref = useRef();
-  // const [inputText, setInputText] = useState(text);
   const[newVal, setNewVal] = useState (text);
   return (
     <div className="top top1">
