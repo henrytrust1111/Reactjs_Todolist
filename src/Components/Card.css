@@ -1,0 +1,60 @@
+.card-container{
+    height: 80px;
+    min-height: 80px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #c5e1e5;
+    border-radius: 10px;
+    padding-inline: 10px;
+}
+
+.write-here{
+    height: 100%;
+    width: 80%;
+    border: none;
+    outline: none;
+    background-color: #c5e1e5;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.delete{
+    height: 85%;
+    min-width: 10%;
+    border-radius: 10px;
+    background-color: #1d1ba3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+.default-style {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .conditional-style {
+    font-size: 24px;
+    color: green;
+  }
+
+  .conditional-style::after{
+    content: url('./images/done.svg');
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+}

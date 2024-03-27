@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+#root{
+    width: 100%;
+    max-height: 100vh;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
